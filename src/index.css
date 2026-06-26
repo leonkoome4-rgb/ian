@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --color-cyan-bg: #e6f7fb;
+  --color-cyan-bg-soft: #f2fbfd;
+  --color-sky: #38bdf8;
+  --color-sky-deep: #0ea5e9;
+  --color-ink: #0f2733;
+  --color-gray: #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+  background: var(--color-cyan-bg-soft);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--color-sky);
+  color: #fff;
+}
